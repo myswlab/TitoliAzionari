@@ -7,7 +7,7 @@ class ElencoTitoli implements Serializable
  
  private final static String INTRO_TITOLI = "Ecco l'elenco dei titoli:\n"; 
 	
- private Vector<Titolo> listino;
+ private Vector<Titolo> listino; 
 	
  public ElencoTitoli ()
 	{
@@ -46,6 +46,7 @@ class ElencoTitoli implements Serializable
  public void simulaVariazione()
 	{
 	 // da completare per effettuare simulazione
+	 System.out.println("GIT change");
 	}
  
 }
