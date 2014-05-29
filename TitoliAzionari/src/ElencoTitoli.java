@@ -5,7 +5,7 @@ import java.io.Serializable;
 class ElencoTitoli implements Serializable
 {
  
- private final static String INTRO_TITOLI = "Ecco l'elenco dei titoli:\n";
+ private final static String INTRO_TITOLI = "Ecco l'elenco dei titoli:\n"; 
 	
  private Vector<Titolo> listino;
 	
